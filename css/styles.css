@@ -13,26 +13,37 @@ body {
     margin: 0 auto;
     padding: 0 15px 0 15px;
   }
-
-
-
-
-.header-nav {
-  display: flex;
-  align-items: center;
-}
-.header-item {
-  display: flex;
-  margin: 0 auto;
-  padding: 24px 0 24px;
-  font-style: none;
-  text-decoration: none;
-}
-
-.header-item li {
-  margin: 40px;
-}
-.header-nav .link {
+  
+  /* Header */
+  .header {
+    border-bottom: 1px solid #e7e9fc;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+  }
+  
+ 
+  
+  .logo-span-header {
+    color: #2e2f42;
+  }
+  
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+  .header-item {
+    display: flex;
+    margin: 0 auto;
+    padding: 24px 0 24px;
+    font-style: none;
+    text-decoration: none;
+  }
+  
+  .header-item li {
+    margin: 40px;
+  }
+  
+  .header-nav .link {
     color: #2e2f42;
     font-weight: 500;
     line-height: 1.5;
@@ -44,11 +55,8 @@ body {
   .link :active {
     color: #404bbf;
   }
-  .header {
-    border-bottom: 1px solid #e7e9fc;
-    margin: 0 auto;
-    padding: 0 15px 0 15px;
-}
+  
+
 
 .logo {
     font-family: "Releway", sans-serif;
@@ -63,17 +71,7 @@ body {
  .span-logo{
     color: #2e2f42;
  }
- .top-line-nav{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5px;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
- }
- .top-line-nav:hover,
- .top-line-nav:focus {
-    color: #404bbf;
- }
+
 .address {
     font-style: normal;
 }
@@ -87,11 +85,16 @@ body {
 .contacts:focus {
     color: #434455;
 }
-.dark-bg {
+.header .header-navigation {
+    display: flex;
+  }
+  
+  /* Main */
+  .dark-bg {
     background-color: #2e2f42;
   }
   
-
+ 
   .hero-title {
     font-size: 56px;
     line-height: 1.07;
@@ -110,6 +113,7 @@ body {
     color: #ffffff;
     cursor: pointer;
     border-radius: 4px;
+  
     display: inline-flex;
     padding: 16px 32px;
     align-items: flex-start;
@@ -124,6 +128,8 @@ body {
   .main-page-btn:focus {
     background-color: #404bbf;
   }
+  /* Text */
+  
   .text-div {
     display: flex;
     width: 264px;
@@ -135,7 +141,7 @@ body {
   .text-row {
     display: flex;
   }
-  
+
   .main-caption {
     font-weight: 500;
     font-size: 20px;
@@ -143,7 +149,13 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
   }
-  
+  .feature-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    flex-direction: column;
+  }
   .heading {
     background-color: #f4f4fd;
   }
