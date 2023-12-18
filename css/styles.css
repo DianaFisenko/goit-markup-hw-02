@@ -76,8 +76,9 @@ li {
   .header-address .link {
     color: #434455;
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing : 0.02em;
   }
   .link:hover {
     color: #404bbf;
@@ -108,8 +109,8 @@ li {
   }
   
   .main-page-btn {
-    background-color: #4d5ae5;
-    font-family: 'Roboto', sans-serif;
+    background-color: #4D5AE5;
+    font-family: "Roboto" sans-sarif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -128,11 +129,11 @@ li {
   }
   
   .main-page-btn:hover {
-    background-color: #404bbf;
+    background-color: #404BBF;
   }
   
   .main-page-btn:focus {
-    background-color: #404bbf;
+    background-color: #404BBF;
   }
   /* Text */
   
