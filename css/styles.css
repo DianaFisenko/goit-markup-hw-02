@@ -110,7 +110,7 @@ li {
 }
 
 .main-page-btn {
-  background-color: #4d5ae5;
+  background-color: #4D5AE5;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -129,10 +129,10 @@ li {
   display: block;
 }
 .main-page-btn:hover {
-  background-color: #404bbf;
+  background-color: #404BBF;
 }
 .main-page-btn:focus {
-  background-color: #404bbf;
+  background-color: #404BBF;
 }
 /* Text */
 
