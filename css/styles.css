@@ -1,18 +1,17 @@
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+   letter-spacing: 0.02em;
     color: #434455;
     background-color: #ffffff;
-  }
+}
   
 li {
     list-style: none;
   }
-  /* default values */
-  /* font-size: 16 px;
-  font-weight: 400;
-  font-style: normal;
-  color: black;
-  background-color:white; */
+  
  
   /* Header */
  
