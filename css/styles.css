@@ -93,77 +93,76 @@ li {
     display: flex;
   }
   
- /* Main */
-  .dark-bg {
-    background-color: #2e2f42;
-  }
+/* Main */
+.dark-bg {
+  background-color: #2e2f42;
+}
+
+.hero {
+
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.main-page-btn {
+  background-color: #4d5ae5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 4px;
+
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+.main-page-btn:hover {
+  background-color: #404bbf;
+}
+.main-page-btn:focus {
+  background-color: #404bbf;
+}
+/* Text */
+
+.text-div {
+  display: flex;
+  width: 264px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.text-row {
+  display: flex;
+}
+
+.main-caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.feature-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  flex-direction: column;
+   }
  
-  
-  
- 
-  .hero-title {
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-  }
-  
-  .main-page-btn {
-    background-color: #4D5AE5;
-    font-family: "Roboto" sans-sarif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
-    border-radius: 4px;
-  
-    display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
-    text-align: center;
-    margin: auto;
-    display: block;
-  }
-  
-  .main-page-btn:hover {
-    background-color: #404BBF;
-  }
-  
-  .main-page-btn:focus {
-    background-color: #404BBF;
-  }
-  /* Text */
-  
-  .text-div {
-    display: flex;
-    width: 264px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-  }
-  
-  .text-row {
-    display: flex;
-  }
-  
-  .main-caption {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-  }
-  .feature-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    flex-direction: column;
-  }
   .heading {
     background-color: #f4f4fd;
   }
