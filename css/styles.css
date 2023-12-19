@@ -139,17 +139,9 @@ ol {
 }
 /* Text */
 
-.text-div {
-  display: flex;
-  width: 264px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-}
+ 
 
-.text-row {
-  display: flex;
-}
+
 
 .main-caption {
   font-weight: 500;
@@ -163,7 +155,7 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  flex-direction: column;
+  
    }
  
   .heading {
