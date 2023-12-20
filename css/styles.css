@@ -22,7 +22,7 @@ ol {
   /* Header */
  
   .header {
-    border-bottom: 1px solid #e7e9fc;
+    color:  #e7e9fc;
     margin: 0 auto;
     
   }
@@ -117,8 +117,6 @@ ol {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  
-
   text-align: center;
   margin: auto;display: block;
 }
@@ -130,11 +128,7 @@ ol {
 }
 /* Text */
 
- 
-
-
-
-.main-caption {
+ .main-caption {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -163,7 +157,7 @@ ol {
   .list {
     background-color: #ffffff;
     margin: 0 auto;
-    padding: 24px 24px 24px 24px;
+    
   }
   
   /* Footer */
