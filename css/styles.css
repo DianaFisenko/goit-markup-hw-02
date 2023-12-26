@@ -67,7 +67,7 @@ ol {
    
   }
 
-  .header-address .nav link {
+  .header-address .link {
     color: #434455;
     
     font-size: 16px;
@@ -75,10 +75,10 @@ ol {
     letter-spacing : 0.02em;
   }
 
-  .nav link:hover {
+  .link:hover {
     color: #404bbf;
   }
-  .nav link:focus {
+  .link:focus {
     color: #404bbf;
   }
   
